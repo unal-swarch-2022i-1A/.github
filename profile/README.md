@@ -15,7 +15,7 @@
 | Message Qeue (MQ)     | 5672    |
 | Message Qeue UI       | 15672   |
 | Web application HTTP  | 80      |
-| Web application HTTPS |  '''     |
+| Web application HTTPS | 443     |
 
 
 ## Milestones
