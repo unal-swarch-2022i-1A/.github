@@ -1,3 +1,23 @@
+# Firma
+## Services
+| service               | LISTEN  |
+| --------------------- | ------- |
+| MySQL DB              | 3306    |
+| Postgres DB           | 5432    |
+| Mongo DB              | 27017   |
+| Users MS              | 8090    |
+| Docs MS               | 8091    |
+| Storage MS            | MQ      |
+| Keys MS               | MQ      |
+| Signing MS            | 8092    |
+| Verification MS       | 8093    |
+| API Gateway           | 8080    |
+| Message Qeue (MQ)     | 5672    |
+| Message Qeue UI       | 15672   |
+| Web application HTTP  | 80      |
+| Web application HTTPS |  '''     |
+
+
 ## Milestones
 | Entrega                         | Fecha       | Descripción |
 | ---                             | ---         | --- |
