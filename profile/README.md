@@ -1,21 +1,23 @@
 # Firma
 ## Services
-| service               | LISTEN  |
-| --------------------- | ------- |
-| MySQL DB              | 3306    |
-| Postgres DB           | 5432    |
-| Mongo DB              | 27017   |
-| Users MS              | 8090    |
-| Docs MS               | 8091    |
-| Storage MS            | MQ      |
-| Keys MS               | MQ      |
-| Signing MS            | 8092    |
-| Verification MS       | 8093    |
-| API Gateway           | 8080    |
-| Message Qeue (MQ)     | 5672    |
-| Message Qeue UI       | 15672   |
-| Web application HTTP  | 80      |
-| Web application HTTPS | 443     |
+| service               | Node     | LISTEN  | 
+| --------------------- | -------- | ------- |
+| MySQL DB              | Backend  | 3306    |
+| Postgres DB           | Backend  | 5432    |
+| Mongo DB              | Backend  | 27017   |
+| Users MS              | Backend  | 8090    |
+| Docs MS               | Backend  | 8091    |
+| Storage MS            | Backend  | MQ      |
+| Keys MS               | Backend  | MQ      |
+| Signing MS            | Backend  | 8092    |
+| Verification MS       | Backend  | 8093    |
+| API Gateway           | Backend  | 8080    |
+| Message Qeue (MQ)     | Backend  | 5672    |
+| Message Qeue UI       | Backend  | 15672   |
+| Web application HTTP  | Frontend | 80      |
+| Web application HTTPS | Backend  | 443     |
+| Proxy inverso         | Backend  | 80      |
+| LDAP                  | Backend  | ¿?      |
 
 
 ## Milestones
